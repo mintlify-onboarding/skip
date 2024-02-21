@@ -1,0 +1,71 @@
+{
+    "name": "Skip",
+    "logo": {
+      "light": "/logo/light.png",
+      "dark": "/logo/dark.png"
+    },
+    "favicon": "/favicon.png",
+    "colors": {
+      "primary": "#0E0E0E",
+      "light": "#FAFAFA",
+      "dark": "#0E0E0E"
+    },
+    "topbarCtaButton": {
+      "name": "Research",
+      "url": "https://ideas.skip.money/"
+    },
+    "modeToggle": {
+        "default": "dark"
+    },
+    "tabs": [
+        {
+            "name": "API Reference",
+            "url": "api-reference"
+        }
+    ],
+    "anchors": [
+      {
+        "name": "Contact",
+        "icon": "envelope",
+        "url": "https://skip.money/contact"
+      },
+      {
+        "name": "GitHub",
+        "icon": "github",
+        "url": "https://github.com/skip-mev"
+      },
+      {
+        "name": "Community",
+        "icon": "discord",
+        "url": "https://discord.com/invite/hFeHVAE26P"
+      }
+    ],
+    "navigation": [
+      {
+        "group": "General API Docs",
+        "pages": [
+            "getting-started",
+            "multi-chain-transaction-tracking"           
+        ]
+      },
+      {
+        "group": "SDK Docs",
+        "pages": [
+            "getting-started--typescript-sdk",
+            "gas-and-fee-tooling"
+        ]
+      },
+      {
+        "group": "Advanced Swapping Docs",
+        "pages": [
+            "understanding-quote-quality-metrics",
+            "safe-swapping--how-to-protect-users-from-bad-trades"
+        ]
+      }
+    ],
+    "footerSocials":
+      {
+          "twitter": "https://twitter.com/skipprotocol",
+          "discord": "https://discord.com/invite/hFeHVAE26P"
+      }
+  }
