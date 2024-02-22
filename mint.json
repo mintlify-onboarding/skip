@@ -21,7 +21,15 @@
         {
             "name": "API Reference",
             "url": "api-reference"
-        }
+        },
+        {
+          "name": "Slinky",
+          "url": "slinky"
+      },
+      {
+        "name": "Block SDK",
+        "url": "block-sdk"
+    }
     ],
     "anchors": [
       {
@@ -60,6 +68,20 @@
         "pages": [
             "understanding-quote-quality-metrics",
             "safe-swapping--how-to-protect-users-from-bad-trades"
+        ]
+      },
+      {
+        "group": "Slinky",
+        "pages": [
+            "slinky/overview",
+            "slinky/security-properties"
+        ]
+      },
+      {
+        "group": "Block SDK",
+        "pages": [
+            "block-sdk/integrate",
+            "block-sdk/how-it-works"
         ]
       }
     ],
