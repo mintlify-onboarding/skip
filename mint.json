@@ -1,109 +1,111 @@
 {
-    "name": "Skip",
-    "logo": {
-      "light": "/logo/light.png",
-      "dark": "/logo/dark.png"
-    },
-    "favicon": "/favicon.png",
-    "colors": {
-      "primary": "#0E0E0E",
-      "light": "#FAFAFA",
-      "dark": "#0E0E0E"
-    },
-    "topbarCtaButton": {
-      "name": "Research",
-      "url": "https://ideas.skip.money/"
-    },
-    "modeToggle": {
-        "default": "dark"
-    },
-    "topAnchor": {
-      "name": "Home",
-      "icon": "house"
-    },
-    "anchors": [
-      {
-        "name": "API Reference",
-        "isDefaultHidden": true,
-        "icon": "square-terminal",
-        "url": "api-reference"
-    },
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Skip",
+  "logo": {
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#0E0E0E",
+    "light": "#FAFAFA",
+    "dark": "#0E0E0E",
+    "background": {
+      "dark": "#151617"
+    }
+  },
+  "topbarLinks": [
     {
-        "name": "Slinky",
-        "isDefaultHidden": true,
-        "icon": "wand-magic-sparkles",
-        "url": "slinky"
-    },
-    {
-        "name": "Block SDK",
-        "isDefaultHidden": true,
-        "icon": "code",
-        "url": "block-sdk"
+      "name": "Products",
+      "url": "https://skip.money/products"
     },
     {
       "name": "Contact",
-      "icon": "envelope",
       "url": "https://skip.money/contact"
     },
     {
-      "name": "GitHub",
-      "icon": "github",
-      "url": "https://github.com/skip-mev"
+      "name": "Research",
+      "url": "https://ideas.skip.money"
     },
     {
-      "name": "Community",
-      "icon": "discord",
-      "url": "https://discord.com/invite/hFeHVAE26P"
+      "name": "Jobs",
+      "url": "https://jobs.skip.money"
     }
-    ],
-    "navigation": [
-      {
-        "group": "",
-        "pages": [
-            "home"           
-        ]
-      },
-      {
-        "group": "General API Docs",
-        "pages": [
-            "api-reference/getting-started",
-            "api-reference/multi-chain-transaction-tracking"           
-        ]
-      },
-      {
-        "group": "SDK Docs",
-        "pages": [
-            "api-reference/getting-started--typescript-sdk",
-            "api-reference/gas-and-fee-tooling"
-        ]
-      },
-      {
-        "group": "Advanced Swapping Docs",
-        "pages": [
-            "api-reference/understanding-quote-quality-metrics",
-            "api-reference/safe-swapping--how-to-protect-users-from-bad-trades"
-        ]
-      },
-      {
-        "group": "Slinky",
-        "pages": [
-            "slinky/overview",
-            "slinky/security-properties",
-            "slinky/incentivize-slashing"
-        ]
-      },
-      {
-        "group": "Block SDK",
-        "pages": [
-            "block-sdk/integrate",
-            "block-sdk/how-it-works",
-            "block-sdk/for-searchers"
-        ]
-      }
-    ],
-    "footerSocials":
-      {
-          "twitter": "https://twitter.com/skipprotocol",
-          "discord": "https://discord.com/invite/hFeHVAE26P"
-      }
+  ],
+  "modeToggle": {
+    "default": "dark"
+  },
+  "topAnchor": {
+    "name": "Home",
+    "icon": "house"
+  },
+  "anchors": [
+    {
+      "name": "API Reference",
+      "isDefaultHidden": true,
+      "icon": "square-terminal",
+      "url": "api-reference"
+    },
+    {
+      "name": "Slinky",
+      "isDefaultHidden": true,
+      "icon": "wand-magic-sparkles",
+      "url": "slinky"
+    },
+    {
+      "name": "Block SDK",
+      "isDefaultHidden": true,
+      "icon": "code",
+      "url": "block-sdk"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Home",
+      "pages": [
+        "home"
+      ]
+    },
+    {
+      "group": "General API Docs",
+      "pages": [
+        "api-reference/getting-started",
+        "api-reference/multi-chain-transaction-tracking"
+      ]
+    },
+    {
+      "group": "SDK Docs",
+      "pages": [
+        "api-reference/getting-started--typescript-sdk",
+        "api-reference/gas-and-fee-tooling"
+      ]
+    },
+    {
+      "group": "Advanced Swapping Docs",
+      "pages": [
+        "api-reference/understanding-quote-quality-metrics",
+        "api-reference/safe-swapping--how-to-protect-users-from-bad-trades"
+      ]
+    },
+    {
+      "group": "Slinky",
+      "pages": [
+        "slinky/overview",
+        "slinky/security-properties",
+        "slinky/incentivize-slashing"
+      ]
+    },
+    {
+      "group": "Block SDK",
+      "pages": [
+        "block-sdk/integrate",
+        "block-sdk/how-it-works",
+        "block-sdk/for-searchers"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "twitter": "https://twitter.com/skipprotocol",
+    "discord": "https://discord.com/invite/hFeHVAE26P"
   }
+}
