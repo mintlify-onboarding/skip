@@ -17,57 +17,71 @@
     "modeToggle": {
         "default": "dark"
     },
-    "tabs": [
-        {
-            "name": "API Reference",
-            "url": "api-reference"
-        },
-        {
-          "name": "Slinky",
-          "url": "slinky"
-      },
-      {
-        "name": "Block SDK",
-        "url": "block-sdk"
-    }
-    ],
+    "topAnchor": {
+      "name": "Home",
+      "icon": "house"
+    },
     "anchors": [
       {
-        "name": "Contact",
-        "icon": "envelope",
-        "url": "https://skip.money/contact"
-      },
-      {
-        "name": "GitHub",
-        "icon": "github",
-        "url": "https://github.com/skip-mev"
-      },
-      {
-        "name": "Community",
-        "icon": "discord",
-        "url": "https://discord.com/invite/hFeHVAE26P"
-      }
+        "name": "API Reference",
+        "isDefaultHidden": true,
+        "icon": "square-terminal",
+        "url": "api-reference"
+    },
+    {
+        "name": "Slinky",
+        "isDefaultHidden": true,
+        "icon": "wand-magic-sparkles",
+        "url": "slinky"
+    },
+    {
+        "name": "Block SDK",
+        "isDefaultHidden": true,
+        "icon": "code",
+        "url": "block-sdk"
+    },
+    {
+      "name": "Contact",
+      "icon": "envelope",
+      "url": "https://skip.money/contact"
+    },
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/skip-mev"
+    },
+    {
+      "name": "Community",
+      "icon": "discord",
+      "url": "https://discord.com/invite/hFeHVAE26P"
+    }
     ],
     "navigation": [
       {
+        "group": "",
+        "pages": [
+            "home"           
+        ]
+      },
+      {
         "group": "General API Docs",
         "pages": [
-            "getting-started",
-            "multi-chain-transaction-tracking"           
+            "api-reference/getting-started",
+            "api-reference/multi-chain-transaction-tracking"           
         ]
       },
       {
         "group": "SDK Docs",
         "pages": [
-            "getting-started--typescript-sdk",
-            "gas-and-fee-tooling"
+            "api-reference/getting-started--typescript-sdk",
+            "api-reference/gas-and-fee-tooling"
         ]
       },
       {
         "group": "Advanced Swapping Docs",
         "pages": [
-            "understanding-quote-quality-metrics",
-            "safe-swapping--how-to-protect-users-from-bad-trades"
+            "api-reference/understanding-quote-quality-metrics",
+            "api-reference/safe-swapping--how-to-protect-users-from-bad-trades"
         ]
       },
       {

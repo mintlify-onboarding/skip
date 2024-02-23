@@ -1,5 +1,5 @@
 ---
-title: "1️⃣ MEV Lane"
+title: "MEV Lane"
 ---
 <Note>
 TLDR
@@ -73,7 +73,7 @@ NOTE: This example walks through setting up the MEV and Default lanes.
 
 1.  Import the necessary dependencies into your application. This includes the Block SDK proposal handlers + mempool, keeper, auction types, and auction module. This tutorial will go into more detail into each of the dependencies.
     
-    ```
+```
 import (
  ...
  "github.com/skip-mev/block-sdk/abci"
@@ -91,7 +91,7 @@ import (
     
 2.  Add the `x/auction` module to the the `AppModuleBasic` manager. This manager is in charge of setting up basic, non-dependent module elements such as codec registration and genesis verification. This will register the special `MsgAuctionBid` message. When users want to bid for top of block execution, they will submit a transaction - which we call an auction transaction - that includes a single `MsgAuctionBid`. We prevent any other messages from being included in auction transaction to prevent malicious behavior - such as front running or sandwiching.
     
-    ```
+```
 var (
   ModuleBasics = module.NewBasicManager(
     ...
@@ -107,7 +107,7 @@ var (
     
     a. First add the keeper to the app's struct definition. We also want to add MEV lane's custom checkTx handler to the app's struct definition. This will allow us to override the default checkTx handler to process bid transactions before they are inserted into the `LanedMempool`. NOTE: The custom handler is required as otherwise the auction can be held hostage by a malicious users.
     
-    ```
+```
 type App struct {
 ...
 
@@ -133,7 +133,7 @@ auction.ModuleName: nil,
     
     c. Instantiate the Block SDK's `LanedMempool` with the application's desired lanes.
     
-    ```
+ ```
 
 
 
