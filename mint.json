@@ -74,14 +74,16 @@
         "group": "Slinky",
         "pages": [
             "slinky/overview",
-            "slinky/security-properties"
+            "slinky/security-properties",
+            "slinky/incentivize-slashing"
         ]
       },
       {
         "group": "Block SDK",
         "pages": [
             "block-sdk/integrate",
-            "block-sdk/how-it-works"
+            "block-sdk/how-it-works",
+            "block-sdk/for-searchers"
         ]
       }
     ],
