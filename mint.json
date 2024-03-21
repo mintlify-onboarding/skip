@@ -44,19 +44,19 @@
       "name": "API Reference",
       "isDefaultHidden": true,
       "icon": "square-terminal",
-      "url": "api-reference"
+      "url": "docs.skip.money/api"
     },
     {
       "name": "Slinky",
       "isDefaultHidden": true,
       "icon": "wand-magic-sparkles",
-      "url": "slinky"
+      "url": "docs.skip.money/slinky"
     },
     {
       "name": "Block SDK",
       "isDefaultHidden": true,
       "icon": "code",
-      "url": "block-sdk"
+      "url": "docs.skip.money/block-sdk"
     }
   ],
   "navigation": [
@@ -64,111 +64,6 @@
       "group": "Home",
       "pages": [
         "home"
-      ]
-    },
-    {
-      "group": "General API Docs",
-      "pages": [
-        "api-reference/getting-started",
-        "api-reference/multi-chain-transaction-tracking"
-      ]
-    },
-    {
-      "group": "SDK Docs",
-      "pages": [
-        "api-reference/getting-started--typescript-sdk",
-        "api-reference/gas-and-fee-tooling"
-      ]
-    },
-    {
-      "group": "Advanced Swapping Docs",
-      "pages": [
-        "api-reference/understanding-quote-quality-metrics",
-        "api-reference/safe-swapping--how-to-protect-users-from-bad-trades"
-      ]
-    },
-    {
-      "group": "Dev Endpoints",
-      "pages": [
-        {
-          "group": "Info",
-          "pages": [
-            "api-reference/developer/info/get-v1infochains",
-            "api-reference/developer/info/get-v2infobridges"
-          ]
-        },
-        {
-          "group": "Fungible",
-          "pages": [
-            "api-reference/developer/fungible/get-v1fungiblevenues",
-            "api-reference/developer/fungible/get-v1fungibleassets",
-            "api-reference/developer/fungible/post-v1fungibleassets_from_source",
-            "api-reference/developer/fungible/post-v2fungibleroute",
-            "api-reference/developer/fungible/post-v2fungiblemsgs",
-            "api-reference/developer/fungible/post-v2fungiblemsgs_direct",
-            "api-reference/developer/fungible/post-v1fungiblerecommend_assets",
-            "api-reference/developer/fungible/post-v1fungibleibc_origin_assets",
-            "api-reference/developer/fungible/post-v2fungibleassets_between_chains"
-          ]
-        },
-        {
-          "group": "Transaction",
-          "pages": [
-            "api-reference/developer/transaction/post-v2txsubmit",
-            "api-reference/developer/transaction/post-v2txtrack",
-            "api-reference/developer/transaction/get-v2txstatus"
-          ]
-        }
-      ]
-    },
-    {
-      "group": "Prod Endpoints",
-      "pages": [
-        {
-          "group": "Info",
-          "pages": [
-            "api-reference/prod/info/get-v1infochains",
-            "api-reference/prod/info/get-v2infobridges"
-          ]
-        },
-        {
-          "group": "Fungible",
-          "pages": [
-            "api-reference/prod/fungible/get-v1fungiblevenues",
-            "api-reference/prod/fungible/get-v1fungibleassets",
-            "api-reference/prod/fungible/post-v1fungibleassets_from_source",
-            "api-reference/prod/fungible/post-v2fungibleroute",
-            "api-reference/prod/fungible/post-v2fungiblemsgs",
-            "api-reference/prod/fungible/post-v2fungiblemsgs_direct",
-            "api-reference/prod/fungible/post-v1fungiblerecommend_assets",
-            "api-reference/prod/fungible/post-v1fungibleibc_origin_assets",
-            "api-reference/prod/fungible/post-v2fungibleassets_between_chains"
-          ]
-        },
-        {
-          "group": "Transaction",
-          "pages": [
-            "api-reference/prod/transaction/post-v2txsubmit",
-            "api-reference/prod/transaction/post-v2txtrack",
-            "api-reference/prod/transaction/get-v2txstatus"
-          ]
-        }
-      ]
-    },
-    {
-      "group": "Slinky",
-      "pages": [
-        "slinky/overview",
-        "slinky/security-properties",
-        "slinky/incentivize-slashing"
-      ]
-    },
-    {
-      "group": "Block SDK",
-      "pages": [
-        "block-sdk/integrate",
-        "block-sdk/how-it-works",
-        "block-sdk/for-searchers"
       ]
     }
   ],
