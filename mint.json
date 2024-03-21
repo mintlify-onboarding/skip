@@ -70,5 +70,11 @@
   "footerSocials": {
     "twitter": "https://twitter.com/skipprotocol",
     "discord": "https://discord.com/invite/hFeHVAE26P"
-  }
+  },
+  "redirects": [
+    {
+      "source": "/api",
+      "destination": "/api-reference"
+    }
+  ]
 }
