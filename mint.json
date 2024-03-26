@@ -44,19 +44,19 @@
       "name": "API Reference",
       "isDefaultHidden": true,
       "icon": "square-terminal",
-      "url": "docs.skip.money/api"
+      "url": "api-reference"
     },
     {
       "name": "Slinky",
       "isDefaultHidden": true,
       "icon": "wand-magic-sparkles",
-      "url": "docs.skip.money/slinky"
+      "url": "slinky"
     },
     {
       "name": "Block SDK",
       "isDefaultHidden": true,
       "icon": "code",
-      "url": "docs.skip.money/block-sdk"
+      "url": "block-sdk"
     }
   ],
   "navigation": [
@@ -70,11 +70,5 @@
   "footerSocials": {
     "twitter": "https://twitter.com/skipprotocol",
     "discord": "https://discord.com/invite/hFeHVAE26P"
-  },
-  "redirects": [
-    {
-      "source": "/api",
-      "destination": "/api-reference"
-    }
-  ]
+  }
 }
