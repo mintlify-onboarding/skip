@@ -1,12 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/docs",
-      "destination": "https://flipt.mintlify.dev/docs"
+      "source": "/skip-slinky",
+      "destination": "https://skip-slinky.mintlify.app/skip-slinky"
     },
     {
-      "source": "/docs/:match*",
-      "destination": "https://flipt.mintlify.dev/docs/:match*"
+      "source": "/skip-slinky/:match*",
+      "destination": "https://skip-slinky.mintlify.app/skip-slinky/:match*"
     }
   ]
 }
