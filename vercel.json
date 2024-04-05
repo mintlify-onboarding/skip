@@ -1,28 +1,32 @@
 {
   "rewrites": [
     {
-      "source": "/slinky",
+      "source": "/",
       "destination": "https://skip-slinky.mintlify-slinky.com"
     },
     {
+      "source": "/slinky",
+      "destination": "https://skip-slinky.mintlify-slinky.com/slinky"
+    },
+    {
       "source": "/slinky/:path*",
-      "destination": "https://skip-slinky.mintlify-slinky.com/:path*"
+      "destination": "https://skip-slinky.mintlify-slinky.com/slinky/:path*"
     },
     {
       "source": "/block-sdk",
-      "destination": "https://skip-block-sdk.mintlify-block-sdk.com"
+      "destination": "https://skip-block-sdk.mintlify-block-sdk.com/block-sdk"
     },
     {
       "source": "/block-sdk/:path*",
-      "destination": "https://skip-block-sdk.mintlify-block-sdk.com/:path*"
+      "destination": "https://skip-block-sdk.mintlify-block-sdk.com/block-sdk/:path*"
     },
     {
       "source": "/skip-api",
-      "destination": "https://skip-api.mintlify-skip-api.com"
+      "destination": "https://skip-api.mintlify-skip-api.com/skip-api"
     },
     {
       "source": "/skip-api/:path*",
-      "destination": "https://skip-api.mintlify-skip-api.com/:path*"
+      "destination": "https://skip-api.mintlify-skip-api.com/skip-api/:path*"
     }
   ]
 }
