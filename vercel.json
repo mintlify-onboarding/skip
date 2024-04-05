@@ -2,11 +2,27 @@
   "rewrites": [
     {
       "source": "/slinky",
-      "destination": "https://mintlifyslinky.com"
+      "destination": "https://skip-slinky.mintlify-slinky.com"
     },
     {
       "source": "/slinky/:path*",
-      "destination": "https://mintlifyslinky.com/:path*"
+      "destination": "https://skip-slinky.mintlify-slinky.com/:path*"
+    },
+    {
+      "source": "/block-sdk",
+      "destination": "https://skip-block-sdk.mintlify-block-sdk.com"
+    },
+    {
+      "source": "/block-sdk/:path*",
+      "destination": "https://skip-block-sdk.mintlify-block-sdk.com/:path*"
+    },
+    {
+      "source": "/skip-api",
+      "destination": "https://skip-api.mintlify-skip-api.com"
+    },
+    {
+      "source": "/skip-api/:path*",
+      "destination": "https://skip-api.mintlify-skip-api.com/:path*"
     }
   ]
 }
