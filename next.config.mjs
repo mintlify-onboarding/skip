@@ -1,4 +1,5 @@
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   async rewrites() {
     return {
       beforeFiles: [
@@ -14,3 +15,5 @@ module.exports = {
     };
   },
 };
+
+export default nextConfig;
