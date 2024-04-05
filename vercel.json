@@ -1,10 +1,6 @@
 {
   "rewrites": [
     {
-      "source": "/",
-      "destination": "https://skip-slinky.mintlify-slinky.com/slinky"
-    },
-    {
       "source": "/slinky",
       "destination": "https://skip-slinky.mintlify-slinky.com/slinky"
     },
