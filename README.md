@@ -1,1 +1,0 @@
-Skip's redirect setup

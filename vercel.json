@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/slinky",
+      "destination": "https://mintlifyslinky.com"
+    },
+    {
+      "source": "/slinky/:path*",
+      "destination": "https://mintlifyslinky.com/:path*"
+    }
+  ]
+}
