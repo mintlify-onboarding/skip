@@ -4,11 +4,11 @@ const nextConfig = {
     return {
       fallback: [
         {
-          source: '/skip-slinky',
+          source: '/slinky',
           destination: 'https://skip-slinky.mintlify.app',
         },
         {
-          source: '/skip-slinky/:path*',
+          source: '/slinky/:path*',
           destination: 'https://skip-slinky.mintlify.app/:path*',
         },
       ],
