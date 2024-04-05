@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/skip-slinky",
-      "destination": "https://skip-slinky.mintlify.app/skip-slinky"
+      "destination": "https://skip-slinky.mintlify.app"
     },
     {
       "source": "/skip-slinky/:match*",
-      "destination": "https://skip-slinky.mintlify.app/skip-slinky/:match*"
+      "destination": "https://skip-slinky.mintlify.app:match*"
     }
   ]
 }
