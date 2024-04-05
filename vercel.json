@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/skip-slinky/:match*",
-      "destination": "https://mintlify.com/blog/:match*"
+      "destination": "https://skip-slinky.mintlify.app/:match*"
     }
   ]
 }
