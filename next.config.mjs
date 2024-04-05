@@ -2,7 +2,7 @@
 const nextConfig = {
   async rewrites() {
     return {
-      beforeFiles: [
+      afterFiles: [
         {
           source: '/skip-slinky',
           destination: 'https://skip-slinky.mintlify.app',
