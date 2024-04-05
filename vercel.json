@@ -6,7 +6,7 @@
     },
     {
       "source": "/skip-slinky/:match*",
-      "destination": "https://skip-slinky.mintlify.app:match*"
+      "destination": "https://skip-slinky.mintlify.app/:match*"
     }
   ]
 }
