@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "https://skip-slinky.mintlify-slinky.com"
+      "destination": "https://skip-slinky.mintlify-slinky.com/slinky"
     },
     {
       "source": "/slinky",
